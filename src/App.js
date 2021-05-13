@@ -9,22 +9,24 @@ export default function App() {
     <main>
      <Dictionary />
     </main>
-    <footer>
+       <small>
+       <footer>
       Brain- stormed by <em>Shirin Eldris</em> 🤖, {""}
-   <a href="/"
+   <a href="#"
     className="purple"
     target="_blank"
-    rel="noreferrer">
+    rel="no opener noreferrer">
     Open-Sourced on GitHub
      </a>
-   <a href="/"
+   <a href="#"
     className="green"
     target="_blank"
-    rel="noreferrer">
+    rel="no opener noreferrer">
     {" "}
      Netlify hosted
      </a>
     </footer>
+    </small>
    </div>
   </div>
  );

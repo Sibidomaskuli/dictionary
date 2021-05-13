@@ -1,3 +1,8 @@
+footer {
+ text-align: center;
+ margin: 10px; 
+}
+
 em {
  color: tomato
 }
@@ -8,4 +13,16 @@ em {
 
 .green {
  color: rgb(107,198,132)
+}
+
+input:focus { 
+ outline: none !important;
+ border-color: #3edbf0;
+ box-shadow: 0 0 2px #77acf1;
+}
+
+textarea:focus { 
+ outline: none !important;
+ border-color: #719ECE;
+ box-shadow: 0 0 10px #719ECE;
 }

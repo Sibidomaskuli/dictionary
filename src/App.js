@@ -1,30 +1,33 @@
+import Dictionary from "./Dictionary"; 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-    <div className="container">
-     <header className="App-header"></header>
-     <footer>
-
-     </footer>
-      </div>
+export default function App() {
+ return (
+  <div className="App">
+   <div className="container">
+    <header className="App-header"></header>
+    <main>
+     <Dictionary />
+    </main>
+    <footer>
       Brain- stormed by <em>Shirin Eldris</em> 🤖, {""}
-    <a href="/"
-     className="purple"
-     target="_blank"
-     rel="noreferrer">
-     Open-Sourced on GitHub
+   <a href="/"
+    className="purple"
+    target="_blank"
+    rel="noreferrer">
+    Open-Sourced on GitHub
      </a>
-     <a href="/"
-     className="green"
-     target="_blank"
-     rel="noreferrer">
-     {" "}
+   <a href="/"
+    className="green"
+    target="_blank"
+    rel="noreferrer">
+    {" "}
      Netlify hosted
      </a>
-    </div>    
-  );
+    </footer>
+   </div>
+  </div>
+ );
 }
 
-export default App;
+

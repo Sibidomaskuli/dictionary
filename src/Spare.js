@@ -22,3 +22,12 @@ export default function Meaning(props){
   </div>
  );
 }
+
+// netlify link
+<a href="#"
+       className="green"
+       target="_blank"
+       rel='noopener noreferrer'>
+       {" "}
+     Netlify hosted
+     </a>

@@ -1,5 +1,10 @@
 App-header {
  margin: 30px 0;
+ margin-top: 20px;
+}
+
+.App {
+ margin-top: 20px;
 }
 
 .img-fluid {
@@ -26,7 +31,7 @@ App-header {
 }
 
 em {
- color: tomato
+ color: #f21170
 }
 
 .purple {
@@ -35,12 +40,6 @@ em {
 
 .green {
  color: rgb(107,198,132);
-}
-
-input:focus { 
- outline: none !important;
- border-color: #3edbf0;
- box-shadow: 0 0 2px #77acf1;
 }
 
 

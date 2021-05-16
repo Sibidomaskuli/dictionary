@@ -6,36 +6,37 @@ export default function App() {
  return (
   <div className="App">
    <div className="container">
-    <header className="App-header">
-     <img src={logo}
-      alt="SheCodes logo"
-      className="img-fluid"
-     />
-    </header>
+    <div className="card">
+     <div className="card-body">
+      <header className="App-header">
+       <img src={logo}
+        alt="SheCodes logo"
+        className="img-fluid"
+       />
+      </header>
        
-    <main>
-     <Dictionary />
-    </main>
+      <main>
+       <Dictionary />
+      </main>
        
-    <footer className="App-footer">
-     <small>
-      Brain- stormed by <em>Shirin Eldris</em> 🤖, {""}
-      <a href="https://github.com/Sibidomaskuli/dictionary.git"
-       className="purple"
-       target="_blank"
-       rel='noopener noreferrer'>
-       Open-Sourced on GitHub
-     </a> 🌍
-      <a href="#"
-       className="green"
-       target="_blank"
-       rel='noopener noreferrer'>
-       {" "}
-     Netlify hosted
+      <footer className="App-footer">
+       <small>
+        <strong>
+         <em>Shirin Eldris</em>
+        </strong> 🌍 {""}
+        <a href="https://github.com/Sibidomaskuli/dictionary.git"
+         className="purple"
+         target="_blank"
+         rel='noopener noreferrer'>
+         GitHub
      </a>
-     </small>
-    </footer>
-   </div>
+      
+       </small>
+      </footer>
+     </div>
+         
+    </div>
+   </div> {/*container*/}
   </div>
  );
 }

@@ -23,14 +23,21 @@ export default function App() {
        <small>
         <strong>
          <em>Shirin Eldris</em>
-        </strong> 🌍 {""}
+        </strong>  {""}
         <a href="https://github.com/Sibidomaskuli/dictionary.git"
          className="purple"
          target="_blank"
          rel='noopener noreferrer'>
          GitHub
+     </a>🌍
+     <a href="https://romantic-knuth-bc966b.netlify.app"
+         className="green"
+         target="_blank"
+         rel='noopener noreferrer'>
+         {" "}
+     Netlify
      </a>
-      
+    
        </small>
       </footer>
      </div>

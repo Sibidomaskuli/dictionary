@@ -8,6 +8,10 @@ App-header {
  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKmh2oF2tWs5tVqa14tqlm3IxBE2bf-xeqNeJnGGMSfXHFBuzOCQ2IM1pYtiTJ7gFDtY&usqp=CAU");
 }
 
+body {
+background-color: rgb(250,190,190);
+}
+
 .img-fluid {
  max-width: 200px;
  display: block;

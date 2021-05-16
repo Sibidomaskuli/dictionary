@@ -12,8 +12,9 @@ em {
 }
 
 .green {
- color: rgb(107,198,132)
+ color: rgb(107,198,132);
 }
+
 
 input:focus { 
  outline: none !important;

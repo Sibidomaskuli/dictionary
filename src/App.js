@@ -17,14 +17,14 @@ export default function App() {
        target="_blank"
        rel='noopener noreferrer'>
        Open-Sourced on GitHub
-     </a>
+     </a> 🌍
       <a href="#"
        className="green"
        target="_blank"
        rel='noopener noreferrer'>
        {" "}
-     Netlify hosted
-     </a>
+     Netlify hosted 
+     </a> 
      </footer>
     </small>
    </div>

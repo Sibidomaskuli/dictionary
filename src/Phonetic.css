@@ -1,0 +1,8 @@
+.btn-outline-info,
+.btn-outline-info:hover,
+.btn-outline-info:active,
+.btn-outline-info:visited,
+.btn-outline-info:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}

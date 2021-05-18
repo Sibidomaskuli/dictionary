@@ -26,26 +26,28 @@ export default function Dictionary() {
   setKeyword(event.target.value); 
  }
 
- return <div className="Dictionary">
-  <div className="row">
-  <form onSubmit={search}>
-    <div className="col-7">
-    <input type="search"
-      className="form-control"
-      placeholder="Type a word.."
-      onChange={handleKeywordChange} />
-  </div>     
-  <div className="col-3">
-   <input
-    type="submit"
-    value="search"
-    className="btn btn-outline-danger"
-   />
-  </div> 
-    <Results results={results} />
+ return (
+  <div className="Dictionary">
+   <form onSubmit={search}>
+    <div className="row">
+     <div className="col-10">
+      <input type="search"
+       className="form-control"
+       placeholder="Type a word.."
+       onChange={handleKeywordChange} />
+     </div>
+     <div className="col-2">
+      <input
+       type="submit"
+       value="search"
+       className="btn btn-outline-danger w-100"
+      />
+     </div>
+    </div>
    </form>
+   <Results results={results} />
   </div>
-  </div>;
+ );
  }
     
    

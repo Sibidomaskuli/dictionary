@@ -5,11 +5,19 @@ App-header {
 
 .App {
  margin-top: 20px;
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKmh2oF2tWs5tVqa14tqlm3IxBE2bf-xeqNeJnGGMSfXHFBuzOCQ2IM1pYtiTJ7gFDtY&usqp=CAU");
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKmh2oF2tWs5tVqa14tqlm3IxBE2bf-xeqNeJnGGMSfXHFBuzOCQ2IM1pYtiTJ7gFDtY&usqp=CAU"); 
 }
 
 body {
-background-color: rgb(250,190,190);
+ background-color: rgb(250,190,190); 
+}
+
+a {
+ color: #9670f4;
+}
+
+.card-body {
+ background: #f9f8fe;
 }
 
 .img-fluid {

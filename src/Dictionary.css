@@ -1,5 +1,11 @@
-input:focus { 
- outline: none !important;
- border-color: #3edbf0;
- box-shadow: 0 0 2px #77acf1;
+.Dictionary section {
+ background: #f6e6e4; 
+ padding: 30px; 
+ border-radius: 15px;
+ box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+ margin: 20px 0;  
+}
+
+.Dictionary input {
+ width: 100%;
 }

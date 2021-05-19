@@ -1,8 +1,8 @@
-.btn-outline-info,
-.btn-outline-info:hover,
-.btn-outline-info:active,
-.btn-outline-info:visited,
-.btn-outline-info:focus {
-    background-color: #8064A2;
-    border-color: #8064A2;
+.btn-outline-warning,
+.btn-outline-warning:hover,
+.btn-outline-warning:active,
+.btn-outline-warning:visited,
+.btn-outline-warning:focus {
+    background-color: #f6dfeb;
+    border-color: #f6dfeb;
 }

@@ -10,13 +10,13 @@ export default function App() {
      <div className="card-body">
       <header className="App-header">
        <img src={logo}
-        alt="SheCodes logo"
         className="img-fluid"
+        alt="SheCodes logo"
        />
       </header>
        
       <main>
-       <Dictionary />
+       <Dictionary defaultKeyword="paragon" />
       </main>
        
       <footer className="App-footer">
@@ -40,11 +40,11 @@ export default function App() {
     
        </small>
       </footer>
-     </div>
+     </div> {/*card-body*/}
          
-    </div>
+    </div> {/*card*/}
    </div> {/*container*/}
-  </div>
+  </div> 
  );
 }
 

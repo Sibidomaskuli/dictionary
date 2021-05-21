@@ -1,0 +1,13 @@
+.Meaning .Meaning {
+ color: #8c0000;
+ margin-bottom: 7px; 
+}
+
+.Meaning .Usage {
+ margin-bottom: 4px; 
+}
+
+Strong {
+ color: #ba135d;
+ font-style: italic;
+}

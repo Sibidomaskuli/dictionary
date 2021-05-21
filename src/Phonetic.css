@@ -1,8 +1,8 @@
-.btn-outline-warning,
-.btn-outline-warning:hover,
-.btn-outline-warning:active,
-.btn-outline-warning:visited,
-.btn-outline-warning:focus {
-    background-color: #f6dfeb;
-    border-color: #f6dfeb;
+.btn {
+ margin: 5px;
+}
+
+.Pronounciation {
+ opacity: 0.6;
+ font-weight: bold;  
 }

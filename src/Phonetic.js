@@ -17,7 +17,7 @@ export default function Phonetic(props) {
     type="button"
     className="btn btn-outline-warning">Play</button>
    {" "}
-   <span>{props.phonetic.text}</span>
+   <span className="Pronounciation">{props.phonetic.text}</span>
    </div >
  );  
 }

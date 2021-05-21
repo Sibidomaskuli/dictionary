@@ -23,4 +23,11 @@ export default function Meaning(props){
  );
 }
 
-
+.btn-outline-warning,
+.btn-outline-warning:hover,
+.btn-outline-warning:active,
+.btn-outline-warning:visited,
+.btn-outline-warning:focus {
+    background-color: #f6dfeb;
+    color: #f6dfeb;
+}

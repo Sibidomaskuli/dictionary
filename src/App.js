@@ -37,14 +37,13 @@ export default function App() {
          {" "}
      Netlify
      </a>
-    
        </small>
       </footer>
      </div> {/*card-body*/}
          
     </div> {/*card*/}
    </div> {/*container*/}
-  </div> 
+  </div>
  );
 }
 

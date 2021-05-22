@@ -11,13 +11,13 @@ export default function Phonetic(props) {
  }
  
  return (
-   < div >
+   <div>
    <button
     onClick={start}
     type="button"
     className="btn btn-outline-success">Play</button>
    {" "}
    <span className="Pronounciation">{props.phonetic.text}</span>
-   </div >
+   </div>
  );  
 }

@@ -6,3 +6,8 @@
  opacity: 0.6;
  font-weight: bold;  
 }
+
+ .btn-outline-success:hover {
+  background-color: rgb(107,198,132);
+  color: #064420;  
+ }

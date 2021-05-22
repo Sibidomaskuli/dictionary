@@ -23,6 +23,7 @@ export default function Meaning(props){
  );
 }
 
+
 .btn-outline-warning,
 .btn-outline-warning:hover,
 .btn-outline-warning:active,

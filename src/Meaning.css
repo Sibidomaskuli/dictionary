@@ -1,6 +1,6 @@
 .Meaning .Meaning {
  color: #8c0000;
- margin-bottom: 7px; 
+ margin-bottom: 10px; 
 }
 
 .Meaning .Usage {
@@ -10,4 +10,8 @@
 Strong {
  color: #ba135d;
  font-style: italic;
+}
+
+h4 {
+ color: #ba135d; 
 }

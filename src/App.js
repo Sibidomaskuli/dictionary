@@ -11,7 +11,7 @@ export default function App() {
       <header className="App-header">
        <img src={logo}
         className="img-fluid"
-        alt="SheCodes logo"
+        alt="SE logo"
        />
       </header>
        
@@ -27,13 +27,13 @@ export default function App() {
         <a href="https://github.com/Sibidomaskuli/dictionary.git"
          className="purple"
          target="_blank"
-         rel='noopener noreferrer'>
+         rel='noreferrer'>
          GitHub
      </a>🌍
      <a href="https://romantic-knuth-bc966b.netlify.app"
          className="green"
          target="_blank"
-         rel='noopener noreferrer'>
+         rel='noreferrer'>
          {" "}
      Netlify
      </a>

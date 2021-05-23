@@ -14,7 +14,8 @@ export default function Photos(props) {
         target="_blank"
         rel="noreferrer"
        >
-        <img src={photo.src.tiny} />
+        <img src={photo.src.tiny}
+         alt=""/>
        </a>
       </div>
      );
